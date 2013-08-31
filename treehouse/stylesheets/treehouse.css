@@ -162,7 +162,7 @@ font-family:  HandSean, 'lucida sans unicode', 'lucida grande', 'Trebuchet MS', 
 font-size: 1.375em; /* 24 / 16 */
 line-height: 1.8em;
 margin-bottom: 0.3em;
-color: #666;
+color: #000000;
 }
 
 p.center {
@@ -231,7 +231,7 @@ bottom : -.25em; }
 /* LINKS =============================================================================  */
 
 a { 
-color : #cc1122;
+color : #0000a3;
 -webkit-transition: all 0.3s ease;
 -moz-transition: all 0.3s ease;
 -o-transition: all 0.3s ease;
@@ -240,7 +240,7 @@ text-decoration: none;
 }
 
 a:visited { 
-color : #ee3344; }
+color : #0000a3; }
 
 a:focus { 
 outline : thin dotted; 
@@ -249,7 +249,7 @@ color : rgb(0,0,0); }
 a:hover, 
 a:active { 
 outline : 0;
-color : #dd2233;
+color : #0000a3;
 }
 
 
@@ -526,8 +526,8 @@ background-color : #ccc; }
   #footercontainer {
     width: 100%;  
     border-top: 1px solid #000;
-    background: #c40202;
-    /*background: #222 url(/images/footerback.png) left top;*/
+    background: #00a300; 
+    /*#00a300;*/
   }
   
     footer {
@@ -537,7 +537,6 @@ background-color : #ccc; }
       max-width: 92.3em; /* 1200px / 13 */
       margin: 0 auto;
       padding: 20px 0px 10px 0px;
-      /*color: #c40202;*/
       color: #000000;
     }
 
@@ -547,7 +546,7 @@ background-color : #ccc; }
     }
 /*text-decoration: underline;*/
 
-    footer a:link, footer a:visited { color: #999; }
+    footer a:link, footer a:visited { color: #000000; }
     footer a:hover { color: #fff;  }
 
     ul.pagefooterlist, ul.pagefooterlistimages {
