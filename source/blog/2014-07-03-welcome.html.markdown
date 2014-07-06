@@ -1,0 +1,22 @@
+---
+title: Guess What?
+date: 2014-07-03 01:33 UTC
+tags:
+---
+Hello there, Guess what?  Today marks the start of my blog being launched.  Ok,  not the most exciting
+news since a lot of people start blogs every day but exciting enough for me as this is a goal I have
+set for myself this year.
+
+The main reasons for starting this blog is for educational purposes.  The more I write and explain technical
+concepts, the more "second" learning I do.  It is an amazing feeling when something sticks especially when
+you struggle with something initially.
+
+**Goals for this Blog:**
+
+* 1) Write about programming concepts - Ruby, Rails, JavaScript and other languages I am interested in.
+* 2) Growth Engineering - All about mindset and how it relates to learning.
+* 3) Taking notes for books I read.
+
+I truly believe one of the secrets to being successful is constant learning.  We are always learning
+either directly or indirectly from our experiences, failures, achievements and life in general.  By writing
+I am hoping to learn more about myself, grow as a Software Developer and help others by sharing what I learn.
