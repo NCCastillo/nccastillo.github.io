@@ -33,7 +33,8 @@ activate :livereload
 
 activate :syntax
 
-set :markdown_engine, :redcarpet
+set :markdown_engine, :kramdown
+# set :markdown_engine, :redcarpet
 set :markdown, :fenced_code_blocks => true, :smartypants => true
 
 set :relative_links, true
