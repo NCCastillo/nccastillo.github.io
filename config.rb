@@ -33,8 +33,7 @@ activate :livereload
 
 activate :syntax
 
-set :markdown_engine, :kramdown
-# set :markdown_engine, :redcarpet
+set :markdown_engine, :redcarpet
 set :markdown, :fenced_code_blocks => true, :smartypants => true
 
 set :relative_links, true
@@ -92,7 +91,7 @@ activate :deploy do |deploy|
   deploy.method = :git
   # Optional Settings
   # deploy.remote   = "custom-remote" # remote name or git url, default: origin
-  # deploy.branch   = "custom-branch" # default: gh-pages
+  deploy.branch   = "master" # default: gh-pages
   # deploy.strategy = :submodule      # commit strategy: can be :force_push or :submodule, default: :force_push
   # deploy.commit_message = "custom-message"      # commit message (can be empty), default: Automated commit at `timestamp` by middleman-deploy `version`
 end
