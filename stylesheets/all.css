@@ -1,0 +1,1869 @@
+/* line 1, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/bitters/extends/_button.scss */
+button,
+input[type="submit"] {
+  border: 1px solid #2459a6;
+  border-radius: 3px;
+  box-shadow: inset 0 1px 0 0 #89a8d5;
+  color: white;
+  display: inline-block;
+  font-size: inherit;
+  font-weight: bold;
+  background-color: #477dca;
+  background-image: -webkit-linear-gradient(#477dca, #2760b2);
+  background-image: linear-gradient(#477dca, #2760b2);
+  padding: 7px 18px;
+  text-decoration: none;
+  text-shadow: 0 1px 0 #1b4f9a;
+  background-clip: padding-box;
+  -webkit-font-smoothing: antialiased;
+  font-size: 1em;
+  font-weight: bold;
+  line-height: 1em; }
+  /* line 131, /Users/Nestor/.rvm/gems/ruby-2.1.5/gems/bourbon-3.2.1/app/assets/stylesheets/addons/_button.scss */
+  button:hover:not(:disabled),
+  input[type="submit"]:hover:not(:disabled) {
+    box-shadow: inset 0 1px 0 0 #628cc8;
+    cursor: pointer;
+    background-color: #3c71bb;
+    background-image: -webkit-linear-gradient(#3c71bb, #255aa5);
+    background-image: linear-gradient(#3c71bb, #255aa5); }
+  /* line 148, /Users/Nestor/.rvm/gems/ruby-2.1.5/gems/bourbon-3.2.1/app/assets/stylesheets/addons/_button.scss */
+  button:active:not(:disabled),
+  input[type="submit"]:active:not(:disabled), button:focus:not(:disabled),
+  input[type="submit"]:focus:not(:disabled) {
+    border: 1px solid #2459a6;
+    box-shadow: inset 0 0 8px 4px #235397, inset 0 0 8px 4px #235397; }
+  /* line 51, /Users/Nestor/.rvm/gems/ruby-2.1.5/gems/bourbon-3.2.1/app/assets/stylesheets/addons/_button.scss */
+  button:disabled,
+  input[type="submit"]:disabled {
+    opacity: 0.5;
+    cursor: not-allowed; }
+
+/* line 1, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/bitters/_typography.scss */
+body {
+  color: #333333;
+  background-color: white;
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-size: 1em;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.5em;
+  margin: 0; }
+
+/* line 11, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/bitters/_typography.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  line-height: 1.25em;
+  margin: 0;
+  text-rendering: optimizeLegibility; }
+
+/* line 18, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/bitters/_typography.scss */
+h1 {
+  font-size: 2.25em; }
+
+/* line 22, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/bitters/_typography.scss */
+h2 {
+  font-size: 2em; }
+
+/* line 26, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/bitters/_typography.scss */
+h3 {
+  font-size: 1.75em; }
+
+/* line 30, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/bitters/_typography.scss */
+h4 {
+  font-size: 1.5em; }
+
+/* line 34, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/bitters/_typography.scss */
+h5 {
+  font-size: 1.25em; }
+
+/* line 38, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/bitters/_typography.scss */
+h6 {
+  font-size: 1em; }
+
+/* line 42, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/bitters/_typography.scss */
+p {
+  margin: 0 0 0.75em; }
+
+/* line 46, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/bitters/_typography.scss */
+a {
+  color: #477dca;
+  text-decoration: none;
+  -webkit-transition: color 0.1s linear;
+  -moz-transition: color 0.1s linear;
+  transition: color 0.1s linear; }
+  /* line 51, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/bitters/_typography.scss */
+  a:hover {
+    color: #2c5999; }
+  /* line 55, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/bitters/_typography.scss */
+  a:active, a:focus {
+    color: #2c5999;
+    outline: none; }
+
+/* line 61, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/bitters/_typography.scss */
+hr {
+  border-bottom: 1px solid #dddddd;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  margin: 1.5em 0; }
+
+/* line 69, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/bitters/_typography.scss */
+img {
+  margin: 0;
+  max-width: 100%; }
+
+/* line 74, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/bitters/_typography.scss */
+abbr, acronym {
+  border-bottom: 1px dotted #dddddd;
+  cursor: help; }
+
+/* line 79, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/bitters/_typography.scss */
+address {
+  display: block;
+  margin: 0 0 0.75em; }
+
+/* line 84, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/bitters/_typography.scss */
+hgroup {
+  margin-bottom: 0.75em; }
+
+/* line 88, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/bitters/_typography.scss */
+del {
+  color: #595959; }
+
+/* line 92, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/bitters/_typography.scss */
+blockquote {
+  border-left: 2px solid #dddddd;
+  color: #595959;
+  margin: 1.5em 0;
+  padding-left: 0.75em; }
+
+/* line 99, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/bitters/_typography.scss */
+cite {
+  color: #737373;
+  font-style: italic; }
+  /* line 103, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/bitters/_typography.scss */
+  cite:before {
+    content: '\2014 \00A0'; }
+
+/* line 10, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/bitters/_forms.scss */
+fieldset {
+  background: #f7f7f7;
+  border: 1px solid #dddddd;
+  margin: 0 0 0.75em 0;
+  padding: 1.5em; }
+
+/* line 19, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/bitters/_forms.scss */
+input,
+label,
+select {
+  display: block;
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-size: 1em; }
+
+/* line 25, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/bitters/_forms.scss */
+label {
+  font-weight: bold;
+  margin-bottom: 0.375em; }
+  /* line 29, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/bitters/_forms.scss */
+  label.required:after {
+    content: "*"; }
+  /* line 33, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/bitters/_forms.scss */
+  label abbr {
+    display: none; }
+
+/* line 40, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/bitters/_forms.scss */
+textarea,
+input[type="email"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="url"], input[type="color"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="time"], input[type="week"],
+select[multiple=multiple] {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: border-color;
+  -moz-transition: border-color;
+  transition: border-color;
+  background-color: white;
+  border-radius: 0.1875em;
+  border: 1px solid #dddddd;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06);
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-size: 1em;
+  margin-bottom: 0.75em;
+  padding: 0.5em 0.5em;
+  width: 100%; }
+  /* line 53, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/bitters/_forms.scss */
+  textarea:hover,
+  input[type="email"]:hover, input[type="number"]:hover, input[type="password"]:hover, input[type="search"]:hover, input[type="tel"]:hover, input[type="text"]:hover, input[type="url"]:hover, input[type="color"]:hover, input[type="date"]:hover, input[type="datetime"]:hover, input[type="datetime-local"]:hover, input[type="month"]:hover, input[type="time"]:hover, input[type="week"]:hover,
+  select[multiple=multiple]:hover {
+    border-color: #c4c4c4; }
+  /* line 57, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/bitters/_forms.scss */
+  textarea:focus,
+  input[type="email"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="text"]:focus, input[type="url"]:focus, input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus,
+  select[multiple=multiple]:focus {
+    border-color: #477dca;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06), 0 0 5px rgba(55, 112, 192, 0.7);
+    outline: none; }
+
+/* line 64, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/bitters/_forms.scss */
+textarea {
+  resize: vertical; }
+
+/* line 68, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/bitters/_forms.scss */
+input[type="search"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none; }
+
+/* line 72, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/bitters/_forms.scss */
+input[type="checkbox"], input[type="radio"] {
+  display: inline;
+  margin-right: 0.375em; }
+
+/* line 77, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/bitters/_forms.scss */
+input[type="file"] {
+  width: 100%; }
+
+/* line 81, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/bitters/_forms.scss */
+select {
+  width: auto;
+  max-width: 100%;
+  margin-bottom: 1.5em; }
+
+/* line 88, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/bitters/_forms.scss */
+button,
+input[type="submit"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  user-select: none;
+  vertical-align: middle;
+  white-space: nowrap; }
+
+/* line 1, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/bitters/_tables.scss */
+table {
+  border-collapse: collapse;
+  margin: 0.75em 0;
+  table-layout: fixed;
+  width: 100%; }
+
+/* line 8, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/bitters/_tables.scss */
+th {
+  border-bottom: 1px solid #b7b7b7;
+  font-weight: bold;
+  padding: 0.75em 0;
+  text-align: left; }
+
+/* line 15, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/bitters/_tables.scss */
+td {
+  border-bottom: 1px solid #dddddd;
+  padding: 0.75em 0; }
+
+/* line 20, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/bitters/_tables.scss */
+tr, td, th {
+  vertical-align: middle; }
+
+/* line 1, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/bitters/_lists.scss */
+ul, ol {
+  margin: 0;
+  padding: 0;
+  list-style-type: none; }
+/* line 19, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/bitters/_lists.scss */
+dl {
+  line-height: 1.5em;
+  margin-bottom: 0.75em; }
+  /* line 23, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/bitters/_lists.scss */
+  dl dt {
+    font-weight: bold;
+    margin-top: 0.75em; }
+  /* line 28, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/bitters/_lists.scss */
+  dl dd {
+    margin: 0; }
+
+/* Bitters needs to be imported before Neat */
+/* line 2, /Users/Nestor/.rvm/gems/ruby-2.1.5/gems/neat-1.5.1/app/assets/stylesheets/grid/_grid.scss */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* line 10, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/partials/_layout.scss */
+#content .card {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  max-width: 43.75em;
+  background-color: #e7e7e7;
+  border-radius: 0.1875em;
+  border: 1px solid #dddddd;
+  box-shadow: 0 1px 4px #e6e6e6; }
+  /* line 15, /Users/Nestor/.rvm/gems/ruby-2.1.5/gems/bourbon-3.2.1/app/assets/stylesheets/addons/_clearfix.scss */
+  #content .card:after {
+    content: "";
+    display: table;
+    clear: both; }
+  /* line 19, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/partials/_layout.scss */
+  #content .card .card-photo {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 23.23176%;
+    padding: 25px 0 0 15px; }
+    /* line 38, /Users/Nestor/.rvm/gems/ruby-2.1.5/gems/neat-1.5.1/app/assets/stylesheets/grid/_span-columns.scss */
+    #content .card .card-photo:last-child {
+      margin-right: 0; }
+    /* line 23, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/partials/_layout.scss */
+    #content .card .card-photo img {
+      border-radius: 90px; }
+  /* line 28, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/partials/_layout.scss */
+  #content .card .card-info {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 74.41059%;
+    padding-top: 25px; }
+    /* line 38, /Users/Nestor/.rvm/gems/ruby-2.1.5/gems/neat-1.5.1/app/assets/stylesheets/grid/_span-columns.scss */
+    #content .card .card-info:last-child {
+      margin-right: 0; }
+    /* line 32, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/partials/_layout.scss */
+    #content .card .card-info p {
+      margin: 1em 2em 1em 0; }
+    /* line 36, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/partials/_layout.scss */
+    #content .card .card-info h4 {
+      color: #2c6700; }
+    /* line 40, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/partials/_layout.scss */
+    #content .card .card-info span.lang {
+      color: #2c6700;
+      font-weight: bold; }
+    /* line 45, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/partials/_layout.scss */
+    #content .card .card-info .card-social-links {
+      float: left;
+      display: block;
+      margin-right: 3.16844%;
+      width: 42.6842%;
+      margin-left: 11.46316%;
+      text-align: center; }
+      /* line 38, /Users/Nestor/.rvm/gems/ruby-2.1.5/gems/neat-1.5.1/app/assets/stylesheets/grid/_span-columns.scss */
+      #content .card .card-info .card-social-links:last-child {
+        margin-right: 0; }
+      /* line 50, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/partials/_layout.scss */
+      #content .card .card-info .card-social-links li {
+        display: inline-block;
+        padding: 25px 0px; }
+      /* line 55, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/partials/_layout.scss */
+      #content .card .card-info .card-social-links a {
+        color: #2c6700;
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        transition: all 0.3s ease; }
+        /* line 62, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/partials/_layout.scss */
+        #content .card .card-info .card-social-links a:hover {
+          outline: 0;
+          color: #429a00; }
+/* line 71, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/partials/_layout.scss */
+#content .socialpictogram {
+  font-family: 'EntypoSocialRegular';
+  font-size: 6.0em;
+  font-weight: normal;
+  vertical-align: middle;
+  line-height: 0;
+  margin-right: .1em; }
+
+@font-face {
+  font-family: 'EntypoRegular';
+  src: url("fonts/entypo.eot");
+  src: url("fonts/entypo.eot?#iefix") format("embedded-opentype"), url("fonts/entypo.woff") format("woff"), url("fonts/entypo.ttf") format("truetype"), url("fonts/entypo.svg#EntypoRegular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'EntypoSocialRegular';
+  src: url("fonts/entypo-social.eot");
+  src: url("fonts/entypo-social.eot?#iefix") format("embedded-opentype"), url("fonts/entypo-social.woff") format("woff"), url("fonts/entypo-social.ttf") format("truetype"), url("fonts/entypo-social.svg#EntypoRegular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+/* line 23, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo {
+  font-family: 'EntypoRegular';
+  font-size: 2em;
+  font-weight: normal;
+  line-height: 0; }
+
+/* line 30, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo-social {
+  font-family: 'EntypoSocialRegular';
+  font-size: 2em;
+  font-weight: normal;
+  line-height: 0; }
+
+/* line 37, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.phone:before {
+  content: '\1F4DE'; }
+
+/* line 38, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.mobile:before {
+  content: '\1F4F1'; }
+
+/* line 39, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.mouse:before {
+  content: '\E789'; }
+
+/* line 40, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.address:before {
+  content: '\E723'; }
+
+/* line 41, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.mail:before {
+  content: '\2709'; }
+
+/* line 42, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.paper-plane:before {
+  content: '\1F53F'; }
+
+/* line 43, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.pencil:before {
+  content: '\270E'; }
+
+/* line 44, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.feather:before {
+  content: '\2712'; }
+
+/* line 45, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.attach:before {
+  content: '\1F4CE'; }
+
+/* line 46, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.inbox:before {
+  content: '\E777'; }
+
+/* line 47, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.reply:before {
+  content: '\E712'; }
+
+/* line 48, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.reply-all:before {
+  content: '\E713'; }
+
+/* line 49, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.forward:before {
+  content: '\27A6'; }
+
+/* line 50, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.user:before {
+  content: '\1F464'; }
+
+/* line 51, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.users:before {
+  content: '\1F465'; }
+
+/* line 52, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.add-user:before {
+  content: '\E700'; }
+
+/* line 53, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.vcard:before {
+  content: '\E722'; }
+
+/* line 54, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.export:before {
+  content: '\E715'; }
+
+/* line 55, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.location:before {
+  content: '\E724'; }
+
+/* line 56, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.map:before {
+  content: '\E727'; }
+
+/* line 57, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.compass:before {
+  content: '\E728'; }
+
+/* line 58, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.direction:before {
+  content: '\27A2'; }
+
+/* line 59, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.hair-cross:before {
+  content: '\1F3AF'; }
+
+/* line 60, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.share:before {
+  content: '\E73C'; }
+
+/* line 61, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.shareable:before {
+  content: '\E73E'; }
+
+/* line 62, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.heart:before {
+  content: '\2665'; }
+
+/* line 63, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.heart-empty:before {
+  content: '\2661'; }
+
+/* line 64, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.star:before {
+  content: '\2605'; }
+
+/* line 65, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.star-empty:before {
+  content: '\2606'; }
+
+/* line 66, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.thumbs-up:before {
+  content: '\1F44D'; }
+
+/* line 67, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.thumbs-down:before {
+  content: '\1F44E'; }
+
+/* line 68, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.chat:before {
+  content: '\E720'; }
+
+/* line 69, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.comment:before {
+  content: '\E718'; }
+
+/* line 70, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.quote:before {
+  content: '\275E'; }
+
+/* line 71, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.home:before {
+  content: '\2302'; }
+
+/* line 72, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.popup:before {
+  content: '\E74C'; }
+
+/* line 73, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.search:before {
+  content: '\1F50D'; }
+
+/* line 74, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.flashlight:before {
+  content: '\1F526'; }
+
+/* line 75, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.print:before {
+  content: '\E716'; }
+
+/* line 76, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.bell:before {
+  content: '\1F514'; }
+
+/* line 77, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.link:before {
+  content: '\1F517'; }
+
+/* line 78, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.flag:before {
+  content: '\2691'; }
+
+/* line 79, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.cog:before {
+  content: '\2699'; }
+
+/* line 80, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.tools:before {
+  content: '\2692'; }
+
+/* line 81, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.trophy:before {
+  content: '\1F3C6'; }
+
+/* line 82, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.tag:before {
+  content: '\E70C'; }
+
+/* line 83, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.camera:before {
+  content: '\1F4F7'; }
+
+/* line 84, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.megaphone:before {
+  content: '\1F4E3'; }
+
+/* line 85, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.moon:before {
+  content: '\0045'; }
+
+/* line 86, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.palette:before {
+  content: '\1F3A8'; }
+
+/* line 87, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.leaf:before {
+  content: '\1F342'; }
+
+/* line 88, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.note:before {
+  content: '\266A'; }
+
+/* line 89, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.beamed-note:before {
+  content: '\266B'; }
+
+/* line 90, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.new:before {
+  content: '\1F4A5'; }
+
+/* line 91, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.graduation-cap:before {
+  content: '\1F393'; }
+
+/* line 92, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.book:before {
+  content: '\1F4D5'; }
+
+/* line 93, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.newspaper:before {
+  content: '\1F4F0'; }
+
+/* line 94, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.bag:before {
+  content: '\1F45C'; }
+
+/* line 95, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.airplane:before {
+  content: '\2708'; }
+
+/* line 96, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.lifebuoy:before {
+  content: '\E788'; }
+
+/* line 97, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.eye:before {
+  content: '\E70A'; }
+
+/* line 98, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.clock:before {
+  content: '\1F554'; }
+
+/* line 99, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.mic:before {
+  content: '\1F3A4'; }
+
+/* line 100, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.calendar:before {
+  content: '\1F4C5'; }
+
+/* line 101, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.flash:before {
+  content: '\26A1'; }
+
+/* line 102, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.thunder-cloud:before {
+  content: '\26C8'; }
+
+/* line 103, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.droplet:before {
+  content: '\1F4A7'; }
+
+/* line 104, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.cd:before {
+  content: '\1F4BF'; }
+
+/* line 105, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.briefcase:before {
+  content: '\1F4BC'; }
+
+/* line 106, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.air:before {
+  content: '\1F4A8'; }
+
+/* line 107, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.hourglass:before {
+  content: '\23F3'; }
+
+/* line 108, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.gauge:before {
+  content: '\1F6C7'; }
+
+/* line 109, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.language:before {
+  content: '\1F394'; }
+
+/* line 110, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.network:before {
+  content: '\E776'; }
+
+/* line 111, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.key:before {
+  content: '\1F511'; }
+
+/* line 112, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.battery:before {
+  content: '\1F50B'; }
+
+/* line 113, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.bucket:before {
+  content: '\1F4FE'; }
+
+/* line 114, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.magnet:before {
+  content: '\E7A1'; }
+
+/* line 115, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.drive:before {
+  content: '\1F4FD'; }
+
+/* line 116, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.cup:before {
+  content: '\2615'; }
+
+/* line 117, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.rocket:before {
+  content: '\1F680'; }
+
+/* line 118, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.brush:before {
+  content: '\E79A'; }
+
+/* line 119, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.suitcase:before {
+  content: '\1F6C6'; }
+
+/* line 120, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.traffic-cone:before {
+  content: '\1F6C8'; }
+
+/* line 121, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.globe:before {
+  content: '\1F30E'; }
+
+/* line 122, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.keyboard:before {
+  content: '\2328'; }
+
+/* line 123, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.browser:before {
+  content: '\E74E'; }
+
+/* line 124, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.publish:before {
+  content: '\E74D'; }
+
+/* line 125, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.progress-3:before {
+  content: '\E76B'; }
+
+/* line 126, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.progress-2:before {
+  content: '\E76A'; }
+
+/* line 127, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.progress-1:before {
+  content: '\E769'; }
+
+/* line 128, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.progress-0:before {
+  content: '\E768'; }
+
+/* line 129, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.light-down:before {
+  content: '\1F505'; }
+
+/* line 130, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.light-up:before {
+  content: '\1F506'; }
+
+/* line 131, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.adjust:before {
+  content: '\25D1'; }
+
+/* line 132, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.code:before {
+  content: '\E714'; }
+
+/* line 133, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.monitor:before {
+  content: '\1F4BB'; }
+
+/* line 134, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.infinity:before {
+  content: '\221E'; }
+
+/* line 135, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.light-bulb:before {
+  content: '\1F4A1'; }
+
+/* line 136, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.credit-card:before {
+  content: '\1F4B3'; }
+
+/* line 137, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.database:before {
+  content: '\1F4F8'; }
+
+/* line 138, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.voicemail:before {
+  content: '\2707'; }
+
+/* line 139, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.clipboard:before {
+  content: '\1F4CB'; }
+
+/* line 140, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.cart:before {
+  content: '\E73D'; }
+
+/* line 141, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.box:before {
+  content: '\1F4E6'; }
+
+/* line 142, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.ticket:before {
+  content: '\1F3AB'; }
+
+/* line 143, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.rss:before {
+  content: '\E73A'; }
+
+/* line 144, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.signal:before {
+  content: '\1F4F6'; }
+
+/* line 145, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.thermometer:before {
+  content: '\1F4FF'; }
+
+/* line 146, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.water:before {
+  content: '\1F4A6'; }
+
+/* line 147, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.sweden:before {
+  content: '\F601'; }
+
+/* line 148, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.line-graph:before {
+  content: '\1F4C8'; }
+
+/* line 149, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.pie-chart:before {
+  content: '\25F4'; }
+
+/* line 150, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.bar-graph:before {
+  content: '\1F4CA'; }
+
+/* line 151, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.area-graph:before {
+  content: '\1F53E'; }
+
+/* line 152, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.lock:before {
+  content: '\1F512'; }
+
+/* line 153, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.lock-open:before {
+  content: '\1F513'; }
+
+/* line 154, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.logout:before {
+  content: '\E741'; }
+
+/* line 155, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.login:before {
+  content: '\E740'; }
+
+/* line 156, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.check:before {
+  content: '\2713'; }
+
+/* line 157, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.cross:before {
+  content: '\274C'; }
+
+/* line 158, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.squared-minus:before {
+  content: '\229F'; }
+
+/* line 159, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.squared-plus:before {
+  content: '\229E'; }
+
+/* line 160, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.squared-cross:before {
+  content: '\274E'; }
+
+/* line 161, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.circled-minus:before {
+  content: '\2296'; }
+
+/* line 162, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.circled-plus:before {
+  content: '\2295'; }
+
+/* line 163, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.circled-cross:before {
+  content: '\2716'; }
+
+/* line 164, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.minus:before {
+  content: '\2796'; }
+
+/* line 165, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.plus:before {
+  content: '\2795'; }
+
+/* line 166, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.erase:before {
+  content: '\232B'; }
+
+/* line 167, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.block:before {
+  content: '\1F6AB'; }
+
+/* line 168, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.info:before {
+  content: '\2139'; }
+
+/* line 169, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.circled-info:before {
+  content: '\E705'; }
+
+/* line 170, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.help:before {
+  content: '\2753'; }
+
+/* line 171, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.circled-help:before {
+  content: '\E704'; }
+
+/* line 172, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.warning:before {
+  content: '\26A0'; }
+
+/* line 173, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.cycle:before {
+  content: '\1F504'; }
+
+/* line 174, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.cw:before {
+  content: '\27F3'; }
+
+/* line 175, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.ccw:before {
+  content: '\27F2'; }
+
+/* line 176, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.shuffle:before {
+  content: '\1F500'; }
+
+/* line 177, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.back:before {
+  content: '\1F519'; }
+
+/* line 178, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.level-down:before {
+  content: '\21B3'; }
+
+/* line 179, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.retweet:before {
+  content: '\E717'; }
+
+/* line 180, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.loop:before {
+  content: '\1F501'; }
+
+/* line 181, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.back-in-time:before {
+  content: '\E771'; }
+
+/* line 182, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.level-up:before {
+  content: '\21B0'; }
+
+/* line 183, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.switch:before {
+  content: '\21C6'; }
+
+/* line 184, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.numbered-list:before {
+  content: '\E005'; }
+
+/* line 185, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.add-to-list:before {
+  content: '\E003'; }
+
+/* line 186, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.layout:before {
+  content: '\268F'; }
+
+/* line 187, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.list:before {
+  content: '\2630'; }
+
+/* line 188, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.text-doc:before {
+  content: '\1F4C4'; }
+
+/* line 189, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.text-doc-inverted:before {
+  content: '\E731'; }
+
+/* line 190, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.doc:before {
+  content: '\E730'; }
+
+/* line 191, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.docs:before {
+  content: '\E736'; }
+
+/* line 192, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.landscape-doc:before {
+  content: '\E737'; }
+
+/* line 193, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.picture:before {
+  content: '\1F304'; }
+
+/* line 194, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.video:before {
+  content: '\1F3AC'; }
+
+/* line 195, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.music:before {
+  content: '\1F3B5'; }
+
+/* line 196, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.folder:before {
+  content: '\1F4C1'; }
+
+/* line 197, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.archive:before {
+  content: '\E800'; }
+
+/* line 198, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.trash:before {
+  content: '\E729'; }
+
+/* line 199, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.upload:before {
+  content: '\1F4E4'; }
+
+/* line 200, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.download:before {
+  content: '\1F4E5'; }
+
+/* line 201, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.save:before {
+  content: '\1F4BE'; }
+
+/* line 202, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.install:before {
+  content: '\E778'; }
+
+/* line 203, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.cloud:before {
+  content: '\2601'; }
+
+/* line 204, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.upload-cloud:before {
+  content: '\E711'; }
+
+/* line 205, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.bookmark:before {
+  content: '\1F516'; }
+
+/* line 206, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.bookmarks:before {
+  content: '\1F4D1'; }
+
+/* line 207, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.open-book:before {
+  content: '\1F4D6'; }
+
+/* line 208, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.play:before {
+  content: '\25B6'; }
+
+/* line 209, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.paus:before {
+  content: '\2016'; }
+
+/* line 210, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.record:before {
+  content: '\25CF'; }
+
+/* line 211, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.stop:before {
+  content: '\25A0'; }
+
+/* line 212, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.ff:before {
+  content: '\23E9'; }
+
+/* line 213, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.fb:before {
+  content: '\23EA'; }
+
+/* line 214, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.to-start:before {
+  content: '\23EE'; }
+
+/* line 215, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.to-end:before {
+  content: '\23ED'; }
+
+/* line 216, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.resize-full:before {
+  content: '\E744'; }
+
+/* line 217, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.resize-small:before {
+  content: '\E746'; }
+
+/* line 218, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.volume:before {
+  content: '\23F7'; }
+
+/* line 219, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.sound:before {
+  content: '\1F50A'; }
+
+/* line 220, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.mute:before {
+  content: '\1F507'; }
+
+/* line 221, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.flow-cascade:before {
+  content: '\1F568'; }
+
+/* line 222, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.flow-branch:before {
+  content: '\1F569'; }
+
+/* line 223, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.flow-tree:before {
+  content: '\1F56A'; }
+
+/* line 224, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.flow-line:before {
+  content: '\1F56B'; }
+
+/* line 225, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.flow-parallel:before {
+  content: '\1F56C'; }
+
+/* line 226, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.left-bold:before {
+  content: '\E4AD'; }
+
+/* line 227, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.down-bold:before {
+  content: '\E4B0'; }
+
+/* line 228, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.up-bold:before {
+  content: '\E4AF'; }
+
+/* line 229, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.right-bold:before {
+  content: '\E4AE'; }
+
+/* line 230, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.left:before {
+  content: '\2B05'; }
+
+/* line 231, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.down:before {
+  content: '\2B07'; }
+
+/* line 232, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.up:before {
+  content: '\2B06'; }
+
+/* line 233, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.right:before {
+  content: '\27A1'; }
+
+/* line 234, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.circled-left:before {
+  content: '\E759'; }
+
+/* line 235, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.circled-down:before {
+  content: '\E758'; }
+
+/* line 236, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.circled-up:before {
+  content: '\E75B'; }
+
+/* line 237, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.circled-right:before {
+  content: '\E75A'; }
+
+/* line 238, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.triangle-left:before {
+  content: '\25C2'; }
+
+/* line 239, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.triangle-down:before {
+  content: '\25BE'; }
+
+/* line 240, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.triangle-up:before {
+  content: '\25B4'; }
+
+/* line 241, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.triangle-right:before {
+  content: '\25B8'; }
+
+/* line 242, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.chevron-left:before {
+  content: '\E75D'; }
+
+/* line 243, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.chevron-down:before {
+  content: '\E75C'; }
+
+/* line 244, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.chevron-up:before {
+  content: '\E75F'; }
+
+/* line 245, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.chevron-right:before {
+  content: '\E75E'; }
+
+/* line 246, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.chevron-small-left:before {
+  content: '\E761'; }
+
+/* line 247, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.chevron-small-down:before {
+  content: '\E760'; }
+
+/* line 248, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.chevron-small-up:before {
+  content: '\E763'; }
+
+/* line 249, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.chevron-small-right:before {
+  content: '\E762'; }
+
+/* line 250, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.chevron-thin-left:before {
+  content: '\E765'; }
+
+/* line 251, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.chevron-thin-down:before {
+  content: '\E764'; }
+
+/* line 252, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.chevron-thin-up:before {
+  content: '\E767'; }
+
+/* line 253, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.chevron-thin-right:before {
+  content: '\E766'; }
+
+/* line 254, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.left-thin:before {
+  content: '\2190'; }
+
+/* line 255, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.down-thin:before {
+  content: '\2193'; }
+
+/* line 256, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.up-thin:before {
+  content: '\2191'; }
+
+/* line 257, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.right-thin:before {
+  content: '\2192'; }
+
+/* line 258, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.arrow-combo:before {
+  content: '\E74F'; }
+
+/* line 259, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.three-dots:before {
+  content: '\23F6'; }
+
+/* line 260, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.two-dots:before {
+  content: '\23F5'; }
+
+/* line 261, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.dot:before {
+  content: '\23F4'; }
+
+/* line 262, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.cc:before {
+  content: '\1F545'; }
+
+/* line 263, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.cc-by:before {
+  content: '\1F546'; }
+
+/* line 264, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.cc-nc:before {
+  content: '\1F547'; }
+
+/* line 265, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.cc-nc-eu:before {
+  content: '\1F548'; }
+
+/* line 266, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.cc-nc-jp:before {
+  content: '\1F549'; }
+
+/* line 267, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.cc-sa:before {
+  content: '\1F54A'; }
+
+/* line 268, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.cc-nd:before {
+  content: '\1F54B'; }
+
+/* line 269, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.cc-pd:before {
+  content: '\1F54C'; }
+
+/* line 270, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.cc-zero:before {
+  content: '\1F54D'; }
+
+/* line 271, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.cc-share:before {
+  content: '\1F54E'; }
+
+/* line 272, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.cc-remix:before {
+  content: '\1F54F'; }
+
+/* line 273, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.db-logo:before {
+  content: '\1F5F9'; }
+
+/* line 274, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo.db-shape:before {
+  content: '\1F5FA'; }
+
+/* line 276, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo-social.github:before {
+  content: '\F300'; }
+
+/* line 277, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo-social.c-github:before {
+  content: '\F301'; }
+
+/* line 278, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo-social.flickr:before {
+  content: '\F303'; }
+
+/* line 279, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo-social.c-flickr:before {
+  content: '\F304'; }
+
+/* line 280, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo-social.vimeo:before {
+  content: '\F306'; }
+
+/* line 281, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo-social.c-vimeo:before {
+  content: '\F307'; }
+
+/* line 282, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo-social.twitter:before {
+  content: '\F309'; }
+
+/* line 283, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo-social.c-twitter:before {
+  content: '\F30A'; }
+
+/* line 284, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo-social.facebook:before {
+  content: '\F30C'; }
+
+/* line 285, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo-social.c-facebook:before {
+  content: '\F30D'; }
+
+/* line 286, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo-social.s-facebook:before {
+  content: '\F30E'; }
+
+/* line 287, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo-social.google + :before {
+  content: '\F30F'; }
+
+/* line 288, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo-social.c-google + :before {
+  content: '\F310'; }
+
+/* line 289, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo-social.pinterest:before {
+  content: '\F312'; }
+
+/* line 290, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo-social.c-pinterest:before {
+  content: '\F313'; }
+
+/* line 291, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo-social.tumblr:before {
+  content: '\F315'; }
+
+/* line 292, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo-social.c-tumblr:before {
+  content: '\F316'; }
+
+/* line 293, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo-social.linkedin:before {
+  content: '\F318'; }
+
+/* line 294, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo-social.c-linkedin:before {
+  content: '\F319'; }
+
+/* line 295, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo-social.dribbble:before {
+  content: '\F31B'; }
+
+/* line 296, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo-social.c-dribbble:before {
+  content: '\F31C'; }
+
+/* line 297, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo-social.stumbleupon:before {
+  content: '\F31E'; }
+
+/* line 298, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo-social.c-stumbleupon:before {
+  content: '\F31F'; }
+
+/* line 299, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo-social.lastfm:before {
+  content: '\F321'; }
+
+/* line 300, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo-social.c-lastfm:before {
+  content: '\F322'; }
+
+/* line 301, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo-social.rdio:before {
+  content: '\F324'; }
+
+/* line 302, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo-social.c-rdio:before {
+  content: '\F325'; }
+
+/* line 303, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo-social.spotify:before {
+  content: '\F327'; }
+
+/* line 304, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo-social.c-spotify:before {
+  content: '\F328'; }
+
+/* line 305, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo-social.qq:before {
+  content: '\F32A'; }
+
+/* line 306, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo-social.instagram:before {
+  content: '\F32D'; }
+
+/* line 307, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo-social.dropbox:before {
+  content: '\F330'; }
+
+/* line 308, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo-social.evernote:before {
+  content: '\F333'; }
+
+/* line 309, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo-social.flattr:before {
+  content: '\F336'; }
+
+/* line 310, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo-social.skype:before {
+  content: '\F339'; }
+
+/* line 311, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo-social.c-skype:before {
+  content: '\F33A'; }
+
+/* line 312, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo-social.renren:before {
+  content: '\F33C'; }
+
+/* line 313, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo-social.sina-weibo:before {
+  content: '\F33F'; }
+
+/* line 314, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo-social.paypal:before {
+  content: '\F342'; }
+
+/* line 315, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo-social.picasa:before {
+  content: '\F345'; }
+
+/* line 316, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo-social.soundcloud:before {
+  content: '\F348'; }
+
+/* line 317, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo-social.mixi:before {
+  content: '\F34B'; }
+
+/* line 318, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo-social.behance:before {
+  content: '\F34E'; }
+
+/* line 319, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo-social.google-circles:before {
+  content: '\F351'; }
+
+/* line 320, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo-social.vk:before {
+  content: '\F354'; }
+
+/* line 321, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/entypo.scss */
+.entypo-social.smashing:before {
+  content: '\F357'; }
+
+/* line 1, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/rogue.scss */
+.highlight {
+  background-color: #f4f4f4; }
+
+/* line 2, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/rogue.scss */
+.c {
+  color: #999988;
+  font-style: italic; }
+
+/* Comment */
+/* line 3, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/rogue.scss */
+.err {
+  color: #a61717;
+  background-color: #e3d2d2; }
+
+/* Error */
+/* line 4, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/rogue.scss */
+.k {
+  color: #000000;
+  font-weight: bold; }
+
+/* Keyword */
+/* line 5, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/rogue.scss */
+.o {
+  color: #000000;
+  font-weight: bold; }
+
+/* Operator */
+/* line 6, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/rogue.scss */
+.cm {
+  color: #999988;
+  font-style: italic; }
+
+/* Comment.Multiline */
+/* line 7, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/rogue.scss */
+.cp {
+  color: #999999;
+  font-weight: bold;
+  font-style: italic; }
+
+/* Comment.Preproc */
+/* line 8, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/rogue.scss */
+.c1 {
+  color: #999988;
+  font-style: italic; }
+
+/* Comment.Single */
+/* line 9, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/rogue.scss */
+.cs {
+  color: #999999;
+  font-weight: bold;
+  font-style: italic; }
+
+/* Comment.Special */
+/* line 10, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/rogue.scss */
+.gd {
+  color: #000000;
+  background-color: #ffdddd; }
+
+/* Generic.Deleted */
+/* line 11, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/rogue.scss */
+.ge {
+  color: #000000;
+  font-style: italic; }
+
+/* Generic.Emph */
+/* line 12, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/rogue.scss */
+.gr {
+  color: #aa0000; }
+
+/* Generic.Error */
+/* line 13, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/rogue.scss */
+.gh {
+  color: #999999; }
+
+/* Generic.Heading */
+/* line 14, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/rogue.scss */
+.gi {
+  color: #000000;
+  background-color: #ddffdd; }
+
+/* Generic.Inserted */
+/* line 15, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/rogue.scss */
+.go {
+  color: #888888; }
+
+/* Generic.Output */
+/* line 16, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/rogue.scss */
+.gp {
+  color: #555555; }
+
+/* Generic.Prompt */
+/* line 17, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/rogue.scss */
+.gs {
+  font-weight: bold; }
+
+/* Generic.Strong */
+/* line 18, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/rogue.scss */
+.gu {
+  color: #aaaaaa; }
+
+/* Generic.Subheading */
+/* line 19, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/rogue.scss */
+.gt {
+  color: #aa0000; }
+
+/* Generic.Traceback */
+/* line 20, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/rogue.scss */
+.kc {
+  color: #000000;
+  font-weight: bold; }
+
+/* Keyword.Constant */
+/* line 21, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/rogue.scss */
+.kd {
+  color: #000000;
+  font-weight: bold; }
+
+/* Keyword.Declaration */
+/* line 22, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/rogue.scss */
+.kn {
+  color: #000000;
+  font-weight: bold; }
+
+/* Keyword.Namespace */
+/* line 23, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/rogue.scss */
+.kp {
+  color: #000000;
+  font-weight: bold; }
+
+/* Keyword.Pseudo */
+/* line 24, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/rogue.scss */
+.kr {
+  color: #000000;
+  font-weight: bold; }
+
+/* Keyword.Reserved */
+/* line 25, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/rogue.scss */
+.kt {
+  color: #445588;
+  font-weight: bold; }
+
+/* Keyword.Type */
+/* line 26, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/rogue.scss */
+.m {
+  color: #009999; }
+
+/* Literal.Number */
+/* line 27, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/rogue.scss */
+.s {
+  color: #d01040; }
+
+/* Literal.String */
+/* line 28, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/rogue.scss */
+.na {
+  color: teal; }
+
+/* Name.Attribute */
+/* line 29, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/rogue.scss */
+.nb {
+  color: #0086b3; }
+
+/* Name.Builtin */
+/* line 30, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/rogue.scss */
+.nc {
+  color: #445588;
+  font-weight: bold; }
+
+/* Name.Class */
+/* line 31, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/rogue.scss */
+.no {
+  color: teal; }
+
+/* Name.Constant */
+/* line 32, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/rogue.scss */
+.nd {
+  color: #3c5d5d;
+  font-weight: bold; }
+
+/* Name.Decorator */
+/* line 33, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/rogue.scss */
+.ni {
+  color: purple; }
+
+/* Name.Entity */
+/* line 34, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/rogue.scss */
+.ne {
+  color: #990000;
+  font-weight: bold; }
+
+/* Name.Exception */
+/* line 35, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/rogue.scss */
+.nf {
+  color: #990000;
+  font-weight: bold; }
+
+/* Name.Function */
+/* line 36, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/rogue.scss */
+.nl {
+  color: #990000;
+  font-weight: bold; }
+
+/* Name.Label */
+/* line 37, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/rogue.scss */
+.nn {
+  color: #555555; }
+
+/* Name.Namespace */
+/* line 38, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/rogue.scss */
+.nt {
+  color: navy; }
+
+/* Name.Tag */
+/* line 39, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/rogue.scss */
+.nv {
+  color: teal; }
+
+/* Name.Variable */
+/* line 40, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/rogue.scss */
+.ow {
+  color: #000000;
+  font-weight: bold; }
+
+/* Operator.Word */
+/* line 41, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/rogue.scss */
+.w {
+  color: #bbbbbb; }
+
+/* Text.Whitespace */
+/* line 42, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/rogue.scss */
+.mf {
+  color: #009999; }
+
+/* Literal.Number.Float */
+/* line 43, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/rogue.scss */
+.mh {
+  color: #009999; }
+
+/* Literal.Number.Hex */
+/* line 44, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/rogue.scss */
+.mi {
+  color: #009999; }
+
+/* Literal.Number.Integer */
+/* line 45, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/rogue.scss */
+.mo {
+  color: #009999; }
+
+/* Literal.Number.Oct */
+/* line 46, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/rogue.scss */
+.sb {
+  color: #d01040; }
+
+/* Literal.String.Backtick */
+/* line 47, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/rogue.scss */
+.sc {
+  color: #d01040; }
+
+/* Literal.String.Char */
+/* line 48, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/rogue.scss */
+.sd {
+  color: #d01040; }
+
+/* Literal.String.Doc */
+/* line 49, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/rogue.scss */
+.s2 {
+  color: #d01040; }
+
+/* Literal.String.Double */
+/* line 50, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/rogue.scss */
+.se {
+  color: #d01040; }
+
+/* Literal.String.Escape */
+/* line 51, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/rogue.scss */
+.sh {
+  color: #d01040; }
+
+/* Literal.String.Heredoc */
+/* line 52, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/rogue.scss */
+.si {
+  color: #d01040; }
+
+/* Literal.String.Interpol */
+/* line 53, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/rogue.scss */
+.sx {
+  color: #d01040; }
+
+/* Literal.String.Other */
+/* line 54, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/rogue.scss */
+.sr {
+  color: #009926; }
+
+/* Literal.String.Regex */
+/* line 55, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/rogue.scss */
+.s1 {
+  color: #d01040; }
+
+/* Literal.String.Single */
+/* line 56, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/rogue.scss */
+.ss {
+  color: #990073; }
+
+/* Literal.String.Symbol */
+/* line 57, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/rogue.scss */
+.bp {
+  color: #999999; }
+
+/* Name.Builtin.Pseudo */
+/* line 58, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/rogue.scss */
+.vc {
+  color: teal; }
+
+/* Name.Variable.Class */
+/* line 59, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/rogue.scss */
+.vg {
+  color: teal; }
+
+/* Name.Variable.Global */
+/* line 60, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/rogue.scss */
+.vi {
+  color: teal; }
+
+/* Name.Variable.Instance */
+/* line 61, /Users/Nestor/Dropbox/projects/nccastillo.github.io/source/stylesheets/rogue.scss */
+.il {
+  color: #009999; }
+
+/* Literal.Number.Integer.Long */
