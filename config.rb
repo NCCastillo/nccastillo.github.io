@@ -1,7 +1,14 @@
 # General configuration
 activate :sprockets
-activate :directory_indexes
 activate :autoprefixer
+activate :blog do |blog|
+  blog.prefix = "blog"
+  blog.layout = "layouts/application"
+  blog.permalink = "{year}/{title}.html"
+  blog.tag_template = "blog/tag.html"
+  blog.calendar_template = "blog/calendar.html"
+end
+activate :directory_indexes
 
 set :css_dir, "assets/stylesheets"
 set :js_dir, "assets/javascripts"
