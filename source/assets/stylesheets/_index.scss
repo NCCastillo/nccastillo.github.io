@@ -1,0 +1,79 @@
+$base-border-color: $another-gray !default;
+$base-border-radius: 3px !default;
+$base-background-color: white !default;
+
+$card-border-color: $base-border-color;
+$card-border: 1px solid $card-border-color;
+$card-background: lighten($card-border-color, 4%);
+
+#content {
+  .card {
+    @include outer-container;
+    margin-top: 10%;
+    max-width: em(700);
+    background-color: $card-background;
+    border-radius: $base-border-radius;
+    border: $card-border;
+    box-shadow: 0 1px 4px darken($base-background-color, 10%);
+
+    .card-photo {
+      @include span-columns(3);
+      padding: 25px 0 0 15px;
+
+      img {
+        border-radius: 90px;
+      }
+    }
+
+    .card-info {
+      @include span-columns(9);
+      padding-top: 25px;
+
+      p {
+        margin: 1em 2em 1em 0;
+      }
+
+      h4 {
+        color: $another-green;
+      }
+
+      span.lang{
+        color: $another-green;
+        font-weight: bold;
+      }
+
+      .card-social-links {
+        @include span-columns(4 of 9);
+        @include shift(1);
+        text-align: center;
+
+        li {
+          display: inline-block;
+          padding: 25px 0px;
+        }
+
+        a {
+          color: $another-green;
+          -webkit-transition: all 0.3s ease;
+          -moz-transition: all 0.3s ease;
+          -o-transition: all 0.3s ease;
+          transition: all 0.3s ease;
+
+          &:hover{
+            outline : 0;
+            color : lighten($another-green, 10%);
+          }
+        }
+      }
+    }
+  }
+
+  .socialpictogram {
+    font-family: 'EntypoSocialRegular';
+    font-size: 6.0em;
+    font-weight: normal;
+    vertical-align: middle;
+    line-height: 0;
+    margin-right: .1em;
+  }
+}
