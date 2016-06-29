@@ -16,15 +16,6 @@ $card-background: lighten($card-border-color, 4%);
     border: $card-border;
     box-shadow: 0 1px 4px darken($base-background-color, 10%);
 
-    // .card-photo {
-    //   @include span-columns(3);
-    //   padding: 25px 0 0 15px;
-
-    //   img {
-    //     border-radius: 90px;
-    //   }
-    // }
-
     .card-info {
       @include span-columns(12);
       @include omega();
@@ -36,11 +27,11 @@ $card-background: lighten($card-border-color, 4%);
       }
 
       h4 {
-        color: $another-green;
+        color: $another-blue;
       }
 
       span.lang{
-        color: $another-green;
+        color: $another-blue;
         font-weight: bold;
       }
 
@@ -53,7 +44,7 @@ $card-background: lighten($card-border-color, 4%);
         }
 
         a {
-          color: $another-green;
+          color: $another-blue;
           -webkit-transition: all 0.3s ease;
           -moz-transition: all 0.3s ease;
           -o-transition: all 0.3s ease;
@@ -61,7 +52,7 @@ $card-background: lighten($card-border-color, 4%);
 
           &:hover{
             outline : 0;
-            color : lighten($another-green, 10%);
+            color : lighten($another-blue, 10%);
           }
         }
       }
