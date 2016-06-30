@@ -8,3 +8,4 @@ gem "middleman-blog"
 gem 'bitters'
 gem 'bourbon'
 gem 'neat'
+gem 'nokogiri'

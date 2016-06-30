@@ -1,0 +1,49 @@
+$blog-title-font: 'Lato', sans-serif;
+
+.blog-body {
+  @include outer-container;
+
+  .blog-content {
+    @include span-columns(6);
+    @include shift(3);
+    margin-top: 25px;
+  }
+
+  h1 {
+    font-size: 30px;
+    // font-family: blog-title-font;
+    margin-bottom: 10px;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+
+  time {
+    font-size: 12px;
+    color: $another-blue;
+  }
+
+  .blog-entry {
+    padding: 10px;
+    border-bottom: 1px dotted $another-gray;
+    margin-bottom: 15px;
+  }
+
+  .blog-tags {
+    text-transform: uppercase;
+    color: $another-blue;
+    font-size: 14px;
+    font-weight: bold;
+
+    li {
+      display: inline-block;
+    }
+
+    li + li {
+      padding-right: 5px;
+      padding-left: 5px;
+    }
+  }
+}
