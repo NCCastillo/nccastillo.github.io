@@ -7,6 +7,13 @@ activate :blog do |blog|
   blog.tag_template = "blog/tag.html"
   blog.calendar_template = "blog/calendar.html"
 end
+
+activate :deploy do |deploy|
+  deploy.build_before = true
+  deploy.deploy_method = :git
+  deploy.branch = 'master'
+end
+
 # activate :directory_indexes
 activate :syntax
 
