@@ -90,7 +90,7 @@ GEM
       servolux
       tilt (~> 1.4.1)
       uglifier (~> 3.0)
-    middleman-deploy (1.0.0)
+    middleman-deploy (2.0.0.pre.alpha)
       middleman-core (>= 3.2)
       net-sftp
       ptools
@@ -152,7 +152,7 @@ DEPENDENCIES
   middleman (>= 4.0.0)
   middleman-autoprefixer
   middleman-blog
-  middleman-deploy
+  middleman-deploy (~> 2.0.0.pre.alpha)
   middleman-livereload
   middleman-sprockets
   middleman-syntax
