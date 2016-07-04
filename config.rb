@@ -3,12 +3,15 @@ activate :sprockets
 activate :autoprefixer
 activate :blog do |blog|
   blog.prefix = "blog"
-  blog.layout = "layouts/application"
   blog.permalink = "{year}/{title}.html"
   blog.tag_template = "blog/tag.html"
   blog.calendar_template = "blog/calendar.html"
 end
-activate :directory_indexes
+# activate :directory_indexes
+activate :syntax
+
+set :markdown_engine, :redcarpet
+set :markdown, fenced_code_blocks: true, smartypants: true
 
 set :css_dir, "assets/stylesheets"
 set :js_dir, "assets/javascripts"
@@ -16,6 +19,7 @@ set :images_dir, "assets/images"
 set :fonts_dir, "assets/fonts"
 set :layout, "layouts/application"
 
+page '/blog/*', layout: :blog_layout
 page '/*.xml', layout: false
 page '/*.json', layout: false
 page '/*.txt', layout: false

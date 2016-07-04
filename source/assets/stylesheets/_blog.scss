@@ -1,4 +1,4 @@
-$blog-title-font: 'Lato', sans-serif;
+$blog-title-font: 'Open Sans Condensed', sans-serif;
 
 .blog-body {
   @include outer-container;
@@ -10,8 +10,8 @@ $blog-title-font: 'Lato', sans-serif;
   }
 
   h1 {
-    font-size: 30px;
-    // font-family: blog-title-font;
+    font-size: 36px;
+    font-family: $blog-title-font;
     margin-bottom: 10px;
   }
 

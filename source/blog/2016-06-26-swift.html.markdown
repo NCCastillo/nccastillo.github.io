@@ -1,34 +1,30 @@
 ---
 title: This is a new blog about Swift
 date: 2016-06-26 01:57 UTC
-tags: test, blog, swift
+tags: test, blog, test
 ---
 
 # Hello Swift
 
-This is blog about something new I am doing in Swift. Can I use this as
-a way to document the way I learn things. The more I have to write or type
-the more it will stick in my brain. Repetition and habbits are the best way
-to keep something going.
+Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test
+Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test
+Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test
 
-This is blog about something new I am doing in Swift. Can I use this as
-a way to document the way I learn things. The more I have to write or type
-the more it will stick in my brain. Repetition and habbits are the best way
-to keep something going.
+Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test
+Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test
+Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test
 
-This is blog about something new I am doing in Swift. Can I use this as
-a way to document the way I learn things. The more I have to write or type
-the more it will stick in my brain. Repetition and habbits are the best way
-to keep something going.
+```ruby
+def my_cool_method(message)
+  puts message
+end
+```
 
-This is blog about something new I am doing in Swift. Can I use this as
-a way to document the way I learn things. The more I have to write or type
-the more it will stick in my brain. Repetition and habbits are the best way
-to keep something going.
+Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test
+Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test
+Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test
 
-This is blog about something new I am doing in Swift. Can I use this as
-a way to document the way I learn things. The more I have to write or type
-the more it will stick in my brain. Repetition and habbits are the best way
-to keep something going.
-
+Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test
+Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test
+Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test
 
