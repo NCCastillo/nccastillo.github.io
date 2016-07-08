@@ -9,7 +9,7 @@ tags: swift, fundamentals
 Swift allows us to name any piece of data by using either a variable or a constant. Both variables and constants carries
 with it an associated type, which denotes what sort of data the variable or constant refers to (i.e. text, numbers, time or date).
 
-Ths difference between a variable and a constant is you cannot change the data assigned to a constant. It is good practice to use constants for values that are not going to change.
+The difference between a variable and a constant is you cannot change the data assigned to a constant. It is good practice to use constants for values that are not going to change.
 
 Let us take a look at some examples:
 
@@ -30,7 +30,7 @@ var day: String = "Saturday"
 day = "Sunday"
 ```
 
-Swift is known to be a safe language. If you try to assign a new value that has a different type than the one declared (remember we declared `day` with type of `String`) it will throw an error. The error message would say something like 
+Swift is known to be a safe language. If you try to assign a new value that has a different type than the one declared (remember we declared `day` with type of `String`) it will give you an error. The error message would say something like 
 "Cannot assign value of type to type 'String' ".
 
 ```swift
@@ -59,6 +59,6 @@ let name: String = "Nestor Castillo"
 name = "Jon Doe"
 ```
 
-Remember constants cannot change and if you try to assign a new value then it will throw an error message. The error message would say something like "Cannot assign to value 'name' is a let constant"
+Remember constants cannot change and if you try to assign a new value then it will give you an error message. The error message would say something like "Cannot assign to value 'name' is a let constant"
 
-Variables and constants give you the ability to name your data and refer back them in your code. The only difference between the two are the way you declare them and only variables can change their values. Variables are declared using the `var` keyword and constants are declared using the `let` keyword.
+Variables and constants give you the ability to name your data and refer back to them in your code. Variables are declared using the `var` keyword and constants are declared using the `let` keyword.
