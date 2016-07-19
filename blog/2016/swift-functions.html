@@ -1,0 +1,149 @@
+<!doctype html>
+<html>
+  <head>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta charset="utf-8">
+    <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+
+    <!-- Use title if it's in the page YAML frontmatter -->
+    <title>Swift Functions</title>
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Caveat' rel='stylesheet' type='text/css'>
+    <link href="../../assets/stylesheets/application.css" rel="stylesheet" />
+    <script src="../../assets/javascripts/application.js"></script>
+  </head>
+
+  <div id="main" role="main">
+    <nav class="main-nav">
+  <div id="nav-image">
+<a href="/">      <img src="../../assets/images/ncc.jpeg" alt="Ncc" />
+</a>  </div>
+  <ul class="nav-title">
+    <li><a href="/">Nestor Castillo</a></li>
+  </ul>
+
+  <div class="nav-right">
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="/blog/">Blog</a></li>
+    </ul>
+  </div>
+</nav>
+
+    <div id="content">
+        <div class="blog-body">
+    <div class="blog-content">
+      <h1>Swift Functions</h1>
+
+<p>Functions in Swift allow you to write self contained blocks of code that perform a specific task.
+You give a function a name and call the function when needed.</p>
+
+<h2>Defining and calling functions</h2>
+
+<p>You define a function by using the <code>func</code> keyword followed by parentheses <code>()</code></p>
+<pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">greeting</span><span class="p">()</span> <span class="p">{</span>
+  <span class="nf">print</span><span class="p">(</span><span class="s">"Hello, you are awesome!"</span><span class="p">)</span>
+<span class="p">}</span>
+</code></pre>
+
+<p>To call the newly created function just call it by using the name you gave it.</p>
+<pre class="highlight swift"><code><span class="nf">greeting</span><span class="p">()</span>
+</code></pre>
+
+<p>This will print out:</p>
+<pre class="highlight swift"><code><span class="s">"Hello, you are awesome!"</span>
+</code></pre>
+
+<h2>Function Parameters</h2>
+
+<p>Functions can have parameters included when you are defining them. When you define your function with a parameter
+you give the parameter a type.</p>
+<pre class="highlight swift"><code><span class="c1">// firstName parameter is of type string</span>
+<span class="kd">func</span> <span class="nf">greeting</span><span class="p">(</span><span class="nv">firstName</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="p">{</span>
+  <span class="nf">print</span><span class="p">(</span><span class="s">"Hello, </span><span class="se">\(</span><span class="n">firstName</span><span class="se">)</span><span class="s"> you are awesome!"</span><span class="p">)</span>
+<span class="p">}</span>
+
+<span class="c1">// passing string "Nestor" to the function</span>
+<span class="nf">greeting</span><span class="p">(</span><span class="s">"Nestor"</span><span class="p">)</span>
+</code></pre>
+
+<p>This will print out:</p>
+<pre class="highlight swift"><code><span class="s">"Hello, Nestor you are awesome!"</span>
+</code></pre>
+
+<p>Functions can also have multiple parameters.</p>
+<pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">greeting</span><span class="p">(</span><span class="nv">firstName</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">lastName</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="p">{</span>
+  <span class="nf">print</span><span class="p">(</span><span class="s">"Hello, </span><span class="se">\(</span><span class="n">firstName</span><span class="se">)</span><span class="s"> </span><span class="se">\(</span><span class="n">lastName</span><span class="se">)</span><span class="s"> you are awesome!"</span><span class="p">)</span>
+<span class="p">}</span>
+
+<span class="c1">// Notice first parameter does not have a label but the</span>
+<span class="c1">// second one has 'lastName' as a label</span>
+<span class="nf">greeting</span><span class="p">(</span><span class="s">"Nestor"</span><span class="p">,</span> <span class="nv">lastName</span><span class="p">:</span> <span class="s">"Castillo"</span><span class="p">)</span>
+
+<span class="c1">// will print</span>
+<span class="c1">// "Hello, Nestor Castillo you are awesome!"</span>
+</code></pre>
+
+<p>Any argument after the first is labeled by the name you give to it when defining the function.
+In the example above we had to use <code>lastName</code> as the label when passing <code>&quot;Castillo&quot;</code> to
+the function.</p>
+
+<h2>Function external and local parameter names</h2>
+
+<p>External parameter names are used to label arguements that are passed to the function. Local parameter
+names are used in the implementation of the function. To give an external parameter name to a function
+you simply add the parameter name before the local parameter name.</p>
+<pre class="highlight swift"><code><span class="c1">// 'to' and 'theGreatest' are external parameter names used</span>
+<span class="c1">// to label the arguements that are passed in.</span>
+<span class="kd">func</span> <span class="nf">greeting</span><span class="p">(</span><span class="n">to</span> <span class="nv">firstName</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="n">theGreatest</span> <span class="nv">lastName</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="p">{</span>
+<span class="c1">// firstName and lastName refer to the arguments passed in</span>
+<span class="c1">// and is used in the internal implementation of the func</span>
+<span class="p">}</span>
+</code></pre>
+
+<p>The idea behind having an external parameter name is to make the code very expressive, clear
+and readable. If you are using external parameters names, they must always be used when
+you call the function.</p>
+<pre class="highlight swift"><code><span class="nf">greeting</span><span class="p">(</span><span class="nv">to</span><span class="p">:</span> <span class="s">"Nestor"</span><span class="p">,</span> <span class="nv">theGreatest</span><span class="p">:</span> <span class="s">"Castillo"</span><span class="p">)</span>
+<span class="c1">// "Hello, Nestor Castillo you are awesome!"</span>
+</code></pre>
+
+<p>If an external parameter name is not given then Swift will use the local parameter name as the
+external parameter name.</p>
+<pre class="highlight swift"><code><span class="c1">// in this case firstName and lastName are both</span>
+<span class="c1">// external and local parameter names</span>
+<span class="kd">func</span> <span class="nf">greeting</span><span class="p">(</span><span class="nv">firstName</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">lastName</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="p">{</span>
+<span class="c1">// implementation here</span>
+<span class="p">}</span>
+</code></pre>
+
+<h2>Function Return Values</h2>
+
+<p>Functions can have a return value. You delcare a function&rsquo;s return value by adding a <code>-&gt;</code> to the function declaration
+followed by the type the value should return.</p>
+<pre class="highlight swift"><code><span class="c1">// notice the `-&gt;` followed by 'Int' as the return type</span>
+<span class="kd">func</span> <span class="nf">add</span><span class="p">(</span><span class="nv">firstNumber</span><span class="p">:</span> <span class="kt">Int</span><span class="p">,</span> <span class="nv">secondNumber</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Int</span> <span class="p">{</span>
+  <span class="c1">// use return here to return the value</span>
+  <span class="k">return</span> <span class="n">firstNumber</span> <span class="o">+</span> <span class="n">secondNumber</span>
+<span class="p">}</span>
+</code></pre>
+
+<h2>Conclusion</h2>
+
+<p>Functions allow you to define a block of code for a given task. This gives you the ability to execute the
+function as many times as you like without having to write the same code over and over again.</p>
+
+<p>Functions can have zero or more parameters and can have a return value.</p>
+
+<p>Functions can have external and internal parameter names. The first parameter does not need a label; however,
+all other parameters will be labeled by their names. External parameter names give you the ability to write
+more expressive, clear and readable code.</p>
+
+    </div>
+  </div>
+
+    </div>
+  </div>
+</html>

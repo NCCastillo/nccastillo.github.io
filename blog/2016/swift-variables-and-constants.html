@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+  <head>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta charset="utf-8">
+    <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+
+    <!-- Use title if it's in the page YAML frontmatter -->
+    <title>Swift Variables and Constants</title>
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Caveat' rel='stylesheet' type='text/css'>
+    <link href="../../assets/stylesheets/application.css" rel="stylesheet" />
+    <script src="../../assets/javascripts/application.js"></script>
+  </head>
+
+  <div id="main" role="main">
+    <nav class="main-nav">
+  <div id="nav-image">
+<a href="/">      <img src="../../assets/images/ncc.jpeg" alt="Ncc" />
+</a>  </div>
+  <ul class="nav-title">
+    <li><a href="/">Nestor Castillo</a></li>
+  </ul>
+
+  <div class="nav-right">
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="/blog/">Blog</a></li>
+    </ul>
+  </div>
+</nav>
+
+    <div id="content">
+        <div class="blog-body">
+    <div class="blog-content">
+      <h1>Swift Variables and Constants</h1>
+
+<p>Swift allows us to name any piece of data by using either a variable or a constant. Both variables and constants carries
+with it an associated type, which denotes what sort of data the variable or constant refers to (i.e. text, numbers, time or date).</p>
+
+<p>The difference between a variable and a constant is you cannot change the data assigned to a constant. It is good practice to use constants for values that are not going to change.</p>
+
+<p>Let us take a look at some examples:</p>
+
+<h2>Variables</h2>
+<pre class="highlight swift"><code><span class="k">var</span> <span class="nv">day</span><span class="p">:</span> <span class="kt">String</span> <span class="o">=</span> <span class="s">"Saturday"</span>
+</code></pre>
+
+<p>A variable is declared by using the word <code>var</code>. In the example above we declare a variable named <code>day</code> with a type of <code>String</code> and assigning the value <code>&quot;Saturday&quot;</code>. If we decide to change the value of <code>day</code> all we have to do is set a new value to it.</p>
+<pre class="highlight swift"><code><span class="c1">// initial assignment</span>
+<span class="k">var</span> <span class="nv">day</span><span class="p">:</span> <span class="kt">String</span> <span class="o">=</span> <span class="s">"Saturday"</span>
+
+<span class="c1">//setting new value to day</span>
+<span class="n">day</span> <span class="o">=</span> <span class="s">"Sunday"</span>
+</code></pre>
+
+<p>Swift is known to be a safe language. If you try to assign a new value that has a different type than the one declared (remember we declared <code>day</code> with type of <code>String</code>) it will give you an error. The error message would say something like 
+&ldquo;Cannot assign value of type to type &lsquo;String&rsquo; &rdquo;.</p>
+<pre class="highlight swift"><code><span class="c1">// initial assignment</span>
+<span class="k">var</span> <span class="nv">day</span><span class="p">:</span> <span class="kt">String</span> <span class="o">=</span> <span class="s">"Saturday"</span>
+
+<span class="c1">// setting new value to day with a type of integer</span>
+<span class="c1">// this will give you an error "Cannot assign value of type</span>
+<span class="c1">// 'Int' to type 'String'"</span>
+<span class="n">day</span> <span class="o">=</span> <span class="mi">10</span>
+</code></pre>
+
+<h2>Constants</h2>
+<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">name</span><span class="p">:</span> <span class="kt">String</span> <span class="o">=</span> <span class="s">"Nestor Castillo"</span>
+</code></pre>
+
+<p>A constant is declared by using the word <code>let</code>. You will notice it looks very similar to declaring a variable. We are declaring
+a constant named <code>name</code> with a type of <code>String</code> and assigning the value <code>&quot;Nestor Castillo&quot;</code>. </p>
+<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">name</span><span class="p">:</span> <span class="kt">String</span> <span class="o">=</span> <span class="s">"Nestor Castillo"</span>
+
+<span class="c1">// This will throw an error.</span>
+<span class="n">name</span> <span class="o">=</span> <span class="s">"Jon Doe"</span>
+</code></pre>
+
+<p>Remember constants cannot change and if you try to assign a new value then it will give you an error message. The error message would say something like &ldquo;Cannot assign to value &#39;name&rsquo; is a let constant&rdquo;</p>
+
+<p>Variables and constants give you the ability to name your data and refer back to them in your code. Variables are declared using the <code>var</code> keyword and constants are declared using the <code>let</code> keyword.</p>
+
+    </div>
+  </div>
+
+    </div>
+  </div>
+</html>
